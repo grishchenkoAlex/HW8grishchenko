@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инпут несогласных</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="field">
+        <input class="field__text" placeholder='Только гласные буквы'>
+    </div>
+
+
+    <script>
+        const fieldText = document.querySelector('.field__text');
+        const vowels = ['а', 'и', 'е', 'ё', 'о', 'у', 'ы', 'э', 'ю', 'я'];
+
+        fieldText.addEventListener('input', (event) => {
+            const input = event.target.value;
+
+            const filterValue = input.split('')
+                .filter(char => vowels.includes(char.toLowerCase()))
+                .join('')
+
+            event.target.value = filterValue
+
+        })
+
+    </script>
+</body>
+
+</html>

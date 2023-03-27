@@ -1,9 +1,11 @@
 # HW8grishchenko
 Task1: Инпут несогласных
 Сделайте поле ввода текста, которое разрешает вводить в себя только гласные буквы. Копирование, перетаскивание текста в поле ввода также должно фильтроваться.
+https://grishchenkoalex.github.io/HW8grishchenko/index1.html
 
 Task2:Инпуткман
 Сделайте поле ввода, при наличии фокуса в котором и при нажатии клавиш направо-налево уничтожается соседний DOM-узел.
+https://grishchenkoalex.github.io/HW8grishchenko/index2.html
 
 Task3: Инпуткман 2.0
 Это продолжение задания 2.
@@ -18,3 +20,4 @@ input
 input
 ), ничего не происходит.
 
+https://grishchenkoalex.github.io/HW8grishchenko/index3.html
